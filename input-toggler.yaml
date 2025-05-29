@@ -1,0 +1,3 @@
+- JOB: "/usr/bin/intercept $DEVNODE | /usr/local/lib/input-toggler/keypress-listener"
+  DEVICE:
+    LINK: /dev/input/by-path/platform-thinkpad_acpi-event
