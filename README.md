@@ -5,9 +5,12 @@ pressing the 'star' button (<kbd>Fn</kbd>+<kbd>F12</kbd>) on the keyboard. Works
 on the kernel level, does not depend on X11 or Wayland, the desktop environment,
 or any GUI app. Works on the login and lock screens.
 
+Displays notifications to all active users when the input is turned off or on.
+
 It should work with the Thinkpad types that I have and used to have: P14s Gen 5
 AMD, L14 Gen 2 Intel, X1 Carbon Gen 6, X1 Yoga Gen 8, X230 and X220. Though it
-is possible I've made small changes throughout these years.
+is possible I've made small changes throughout these years that I don't
+remember.
 
 With all the Thinkpads that I've used, the 'star' button
 (<kbd>Fn</kbd>+<kbd>F12</kbd>) is on the separate logical keyboard (ThinkPad
@@ -24,6 +27,9 @@ In my case:
 ![Planck keyboard](planck.jpg)
 
 ## Installation
+
+Systemd-based Linux distro is required. But it should be trivial to adapt it for
+other init systems.
 
 * Install [interception-tools](https://gitlab.com/interception/linux/tools).
   This package depends on the presence of the directory
